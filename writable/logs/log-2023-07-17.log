@@ -1,0 +1,10 @@
+CRITICAL - 2023-07-17 23:23:27 --> Class "Myth\Auth\Authentication\Passwords\ValidationRules" not found
+in SYSTEMPATH\Validation\Validation.php on line 586.
+ 1 SYSTEMPATH\Validation\Validation.php(122): CodeIgniter\Validation\Validation->loadRuleSets()
+ 2 SYSTEMPATH\Controller.php(140): CodeIgniter\Validation\Validation->run()
+ 3 APPPATH\Controllers\Auth.php(80): CodeIgniter\Controller->validate([...])
+ 4 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Auth->cek_login()
+ 5 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')

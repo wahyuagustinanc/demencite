@@ -1,0 +1,16 @@
+CRITICAL - 2022-12-04 21:07:37 --> Call to undefined method CodeIgniter\Database\MySQLi\Builder::getResultArray()
+in APPPATH\Models\M_Pasien.php on line 16.
+ 1 APPPATH\Controllers\Pasien.php(16): App\Models\M_Pasien->getAllData()
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Pasien->index()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pasien))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-04 21:10:35 --> syntax error, unexpected end of file
+in APPPATH\Views\Pasien\index.php on line 46.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('pasien/index', [], true)
+ 3 APPPATH\Controllers\Pasien.php(22): view('pasien/index', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Pasien->index()
+ 5 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pasien))
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()

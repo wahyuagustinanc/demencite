@@ -1,0 +1,35 @@
+ERROR - 2023-03-05 22:03:56 --> mysqli_sql_exception: Unknown column 'id' in 'where clause' in C:\xampp\htdocs\demensia\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\demensia\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\demensia\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\demensia\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\demensia\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\demensia\app\Models\M_Profil.php(17): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\demensia\app\Controllers\Profil.php(23): App\Models\M_Profil->all_data()
+#6 C:\xampp\htdocs\demensia\system\CodeIgniter.php(927): App\Controllers\Profil->index()
+#7 C:\xampp\htdocs\demensia\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Profil))
+#8 C:\xampp\htdocs\demensia\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\demensia\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\demensia\system\Commands\Server\rewrite.php(46): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+CRITICAL - 2023-03-05 22:03:56 --> Unknown column 'id' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *
+FROM `pengguna`
+WHERE `id` = \'0\'', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `pengguna`
+WHERE `id` = \'0\'')
+ 3 SYSTEMPATH\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `pengguna`
+WHERE `id` = \'0\'')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `pengguna`
+WHERE `id` = :id:', [...], false)
+ 5 APPPATH\Models\M_Profil.php(17): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Controllers\Profil.php(23): App\Models\M_Profil->all_data()
+ 7 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Profil->index()
+ 8 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Profil))
+ 9 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')

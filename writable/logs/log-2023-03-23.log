@@ -1,0 +1,557 @@
+ERROR - 2023-03-23 20:56:47 --> Error connecting to the database: mysqli_sql_exception: No connection could be made because the target machine actively refused it in C:\xampp\htdocs\demensia\system\Database\MySQLi\Connection.php:170
+Stack trace:
+#0 C:\xampp\htdocs\demensia\system\Database\MySQLi\Connection.php(170): mysqli->real_connect('localhost', 'root', Object(SensitiveParameterValue), 'demensia', 3306, '', 0)
+#1 C:\xampp\htdocs\demensia\system\Database\BaseConnection.php(382): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\xampp\htdocs\demensia\system\Database\BaseConnection.php(561): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\xampp\htdocs\demensia\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\demensia\system\Model.php(238): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\demensia\system\BaseModel.php(585): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp\htdocs\demensia\app\Controllers\Home.php(26): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp\htdocs\demensia\system\CodeIgniter.php(927): App\Controllers\Home->index()
+#8 C:\xampp\htdocs\demensia\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#9 C:\xampp\htdocs\demensia\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\demensia\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 C:\xampp\htdocs\demensia\system\Commands\Server\rewrite.php(46): require_once('C:\\xampp\\htdocs...')
+#12 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: No connection could be made because the target machine actively refused it in C:\xampp\htdocs\demensia\system\Database\MySQLi\Connection.php:215
+Stack trace:
+#0 C:\xampp\htdocs\demensia\system\Database\BaseConnection.php(382): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\xampp\htdocs\demensia\system\Database\BaseConnection.php(561): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\xampp\htdocs\demensia\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 C:\xampp\htdocs\demensia\system\Model.php(238): CodeIgniter\Database\BaseBuilder->get()
+#4 C:\xampp\htdocs\demensia\system\BaseModel.php(585): CodeIgniter\Model->doFindAll(0, 0)
+#5 C:\xampp\htdocs\demensia\app\Controllers\Home.php(26): CodeIgniter\BaseModel->findAll()
+#6 C:\xampp\htdocs\demensia\system\CodeIgniter.php(927): App\Controllers\Home->index()
+#7 C:\xampp\htdocs\demensia\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#8 C:\xampp\htdocs\demensia\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\demensia\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\demensia\system\Commands\Server\rewrite.php(46): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+CRITICAL - 2023-03-23 20:56:47 --> Unable to connect to the database.
+Main connection [MySQLi]: No connection could be made because the target machine actively refused it
+in SYSTEMPATH\Database\BaseConnection.php on line 418.
+ 1 SYSTEMPATH\Database\BaseConnection.php(561): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `pasien`', [], false)
+ 3 SYSTEMPATH\Model.php(238): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH\BaseModel.php(585): CodeIgniter\Model->doFindAll(0, 0)
+ 5 APPPATH\Controllers\Home.php(26): CodeIgniter\BaseModel->findAll()
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Home->index()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+ERROR - 2023-03-23 20:57:47 --> Error connecting to the database: mysqli_sql_exception: No connection could be made because the target machine actively refused it in C:\xampp\htdocs\demensia\system\Database\MySQLi\Connection.php:170
+Stack trace:
+#0 C:\xampp\htdocs\demensia\system\Database\MySQLi\Connection.php(170): mysqli->real_connect('localhost', 'root', Object(SensitiveParameterValue), 'demensia', 3306, '', 0)
+#1 C:\xampp\htdocs\demensia\system\Database\BaseConnection.php(382): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\xampp\htdocs\demensia\system\Database\BaseConnection.php(561): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\xampp\htdocs\demensia\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\demensia\system\Model.php(238): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\demensia\system\BaseModel.php(585): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp\htdocs\demensia\app\Controllers\Home.php(26): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp\htdocs\demensia\system\CodeIgniter.php(927): App\Controllers\Home->index()
+#8 C:\xampp\htdocs\demensia\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#9 C:\xampp\htdocs\demensia\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\demensia\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 C:\xampp\htdocs\demensia\system\Commands\Server\rewrite.php(46): require_once('C:\\xampp\\htdocs...')
+#12 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: No connection could be made because the target machine actively refused it in C:\xampp\htdocs\demensia\system\Database\MySQLi\Connection.php:215
+Stack trace:
+#0 C:\xampp\htdocs\demensia\system\Database\BaseConnection.php(382): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\xampp\htdocs\demensia\system\Database\BaseConnection.php(561): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\xampp\htdocs\demensia\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 C:\xampp\htdocs\demensia\system\Model.php(238): CodeIgniter\Database\BaseBuilder->get()
+#4 C:\xampp\htdocs\demensia\system\BaseModel.php(585): CodeIgniter\Model->doFindAll(0, 0)
+#5 C:\xampp\htdocs\demensia\app\Controllers\Home.php(26): CodeIgniter\BaseModel->findAll()
+#6 C:\xampp\htdocs\demensia\system\CodeIgniter.php(927): App\Controllers\Home->index()
+#7 C:\xampp\htdocs\demensia\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#8 C:\xampp\htdocs\demensia\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\demensia\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\demensia\system\Commands\Server\rewrite.php(46): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+CRITICAL - 2023-03-23 20:57:47 --> Unable to connect to the database.
+Main connection [MySQLi]: No connection could be made because the target machine actively refused it
+in SYSTEMPATH\Database\BaseConnection.php on line 418.
+ 1 SYSTEMPATH\Database\BaseConnection.php(561): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `pasien`', [], false)
+ 3 SYSTEMPATH\Model.php(238): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH\BaseModel.php(585): CodeIgniter\Model->doFindAll(0, 0)
+ 5 APPPATH\Controllers\Home.php(26): CodeIgniter\BaseModel->findAll()
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Home->index()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+ERROR - 2023-03-23 21:00:09 --> Error connecting to the database: mysqli_sql_exception: No connection could be made because the target machine actively refused it in C:\xampp\htdocs\demensia\system\Database\MySQLi\Connection.php:170
+Stack trace:
+#0 C:\xampp\htdocs\demensia\system\Database\MySQLi\Connection.php(170): mysqli->real_connect('localhost', 'root', Object(SensitiveParameterValue), 'demensia', 3306, '', 0)
+#1 C:\xampp\htdocs\demensia\system\Database\BaseConnection.php(382): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\xampp\htdocs\demensia\system\Database\BaseConnection.php(561): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\xampp\htdocs\demensia\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\demensia\system\Model.php(238): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\demensia\system\BaseModel.php(585): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp\htdocs\demensia\app\Controllers\Home.php(26): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp\htdocs\demensia\system\CodeIgniter.php(927): App\Controllers\Home->index()
+#8 C:\xampp\htdocs\demensia\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#9 C:\xampp\htdocs\demensia\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\demensia\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 C:\xampp\htdocs\demensia\system\Commands\Server\rewrite.php(46): require_once('C:\\xampp\\htdocs...')
+#12 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: No connection could be made because the target machine actively refused it in C:\xampp\htdocs\demensia\system\Database\MySQLi\Connection.php:215
+Stack trace:
+#0 C:\xampp\htdocs\demensia\system\Database\BaseConnection.php(382): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\xampp\htdocs\demensia\system\Database\BaseConnection.php(561): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\xampp\htdocs\demensia\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 C:\xampp\htdocs\demensia\system\Model.php(238): CodeIgniter\Database\BaseBuilder->get()
+#4 C:\xampp\htdocs\demensia\system\BaseModel.php(585): CodeIgniter\Model->doFindAll(0, 0)
+#5 C:\xampp\htdocs\demensia\app\Controllers\Home.php(26): CodeIgniter\BaseModel->findAll()
+#6 C:\xampp\htdocs\demensia\system\CodeIgniter.php(927): App\Controllers\Home->index()
+#7 C:\xampp\htdocs\demensia\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#8 C:\xampp\htdocs\demensia\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\demensia\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\demensia\system\Commands\Server\rewrite.php(46): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+CRITICAL - 2023-03-23 21:00:09 --> Unable to connect to the database.
+Main connection [MySQLi]: No connection could be made because the target machine actively refused it
+in SYSTEMPATH\Database\BaseConnection.php on line 418.
+ 1 SYSTEMPATH\Database\BaseConnection.php(561): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `pasien`', [], false)
+ 3 SYSTEMPATH\Model.php(238): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH\BaseModel.php(585): CodeIgniter\Model->doFindAll(0, 0)
+ 5 APPPATH\Controllers\Home.php(26): CodeIgniter\BaseModel->findAll()
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Home->index()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+ERROR - 2023-03-23 21:00:16 --> Error connecting to the database: mysqli_sql_exception: No connection could be made because the target machine actively refused it in C:\xampp\htdocs\demensia\system\Database\MySQLi\Connection.php:170
+Stack trace:
+#0 C:\xampp\htdocs\demensia\system\Database\MySQLi\Connection.php(170): mysqli->real_connect('localhost', 'root', Object(SensitiveParameterValue), 'demensia', 3306, '', 0)
+#1 C:\xampp\htdocs\demensia\system\Database\BaseConnection.php(382): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\xampp\htdocs\demensia\system\Database\BaseConnection.php(561): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\xampp\htdocs\demensia\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\demensia\system\Model.php(238): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\demensia\system\BaseModel.php(585): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp\htdocs\demensia\app\Controllers\Home.php(26): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp\htdocs\demensia\system\CodeIgniter.php(927): App\Controllers\Home->index()
+#8 C:\xampp\htdocs\demensia\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#9 C:\xampp\htdocs\demensia\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\demensia\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 C:\xampp\htdocs\demensia\system\Commands\Server\rewrite.php(46): require_once('C:\\xampp\\htdocs...')
+#12 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: No connection could be made because the target machine actively refused it in C:\xampp\htdocs\demensia\system\Database\MySQLi\Connection.php:215
+Stack trace:
+#0 C:\xampp\htdocs\demensia\system\Database\BaseConnection.php(382): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\xampp\htdocs\demensia\system\Database\BaseConnection.php(561): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\xampp\htdocs\demensia\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 C:\xampp\htdocs\demensia\system\Model.php(238): CodeIgniter\Database\BaseBuilder->get()
+#4 C:\xampp\htdocs\demensia\system\BaseModel.php(585): CodeIgniter\Model->doFindAll(0, 0)
+#5 C:\xampp\htdocs\demensia\app\Controllers\Home.php(26): CodeIgniter\BaseModel->findAll()
+#6 C:\xampp\htdocs\demensia\system\CodeIgniter.php(927): App\Controllers\Home->index()
+#7 C:\xampp\htdocs\demensia\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#8 C:\xampp\htdocs\demensia\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\demensia\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\demensia\system\Commands\Server\rewrite.php(46): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+CRITICAL - 2023-03-23 21:00:16 --> Unable to connect to the database.
+Main connection [MySQLi]: No connection could be made because the target machine actively refused it
+in SYSTEMPATH\Database\BaseConnection.php on line 418.
+ 1 SYSTEMPATH\Database\BaseConnection.php(561): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `pasien`', [], false)
+ 3 SYSTEMPATH\Model.php(238): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH\BaseModel.php(585): CodeIgniter\Model->doFindAll(0, 0)
+ 5 APPPATH\Controllers\Home.php(26): CodeIgniter\BaseModel->findAll()
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Home->index()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+ERROR - 2023-03-23 21:01:19 --> Error connecting to the database: mysqli_sql_exception: No connection could be made because the target machine actively refused it in C:\xampp\htdocs\demensia\system\Database\MySQLi\Connection.php:170
+Stack trace:
+#0 C:\xampp\htdocs\demensia\system\Database\MySQLi\Connection.php(170): mysqli->real_connect('localhost', 'root', Object(SensitiveParameterValue), 'demensia', 3306, '', 0)
+#1 C:\xampp\htdocs\demensia\system\Database\BaseConnection.php(382): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\xampp\htdocs\demensia\system\Database\BaseConnection.php(561): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\xampp\htdocs\demensia\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\demensia\system\Model.php(238): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\demensia\system\BaseModel.php(585): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp\htdocs\demensia\app\Controllers\Home.php(26): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp\htdocs\demensia\system\CodeIgniter.php(927): App\Controllers\Home->index()
+#8 C:\xampp\htdocs\demensia\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#9 C:\xampp\htdocs\demensia\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\demensia\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 C:\xampp\htdocs\demensia\system\Commands\Server\rewrite.php(46): require_once('C:\\xampp\\htdocs...')
+#12 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: No connection could be made because the target machine actively refused it in C:\xampp\htdocs\demensia\system\Database\MySQLi\Connection.php:215
+Stack trace:
+#0 C:\xampp\htdocs\demensia\system\Database\BaseConnection.php(382): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\xampp\htdocs\demensia\system\Database\BaseConnection.php(561): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\xampp\htdocs\demensia\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 C:\xampp\htdocs\demensia\system\Model.php(238): CodeIgniter\Database\BaseBuilder->get()
+#4 C:\xampp\htdocs\demensia\system\BaseModel.php(585): CodeIgniter\Model->doFindAll(0, 0)
+#5 C:\xampp\htdocs\demensia\app\Controllers\Home.php(26): CodeIgniter\BaseModel->findAll()
+#6 C:\xampp\htdocs\demensia\system\CodeIgniter.php(927): App\Controllers\Home->index()
+#7 C:\xampp\htdocs\demensia\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#8 C:\xampp\htdocs\demensia\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\demensia\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\demensia\system\Commands\Server\rewrite.php(46): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+CRITICAL - 2023-03-23 21:01:19 --> Unable to connect to the database.
+Main connection [MySQLi]: No connection could be made because the target machine actively refused it
+in SYSTEMPATH\Database\BaseConnection.php on line 418.
+ 1 SYSTEMPATH\Database\BaseConnection.php(561): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `pasien`', [], false)
+ 3 SYSTEMPATH\Model.php(238): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH\BaseModel.php(585): CodeIgniter\Model->doFindAll(0, 0)
+ 5 APPPATH\Controllers\Home.php(26): CodeIgniter\BaseModel->findAll()
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Home->index()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+ERROR - 2023-03-23 21:01:37 --> Error connecting to the database: mysqli_sql_exception: No connection could be made because the target machine actively refused it in C:\xampp\htdocs\demensia\system\Database\MySQLi\Connection.php:170
+Stack trace:
+#0 C:\xampp\htdocs\demensia\system\Database\MySQLi\Connection.php(170): mysqli->real_connect('localhost', 'root', Object(SensitiveParameterValue), 'demensia', 3306, '', 0)
+#1 C:\xampp\htdocs\demensia\system\Database\BaseConnection.php(382): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\xampp\htdocs\demensia\system\Database\BaseConnection.php(561): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\xampp\htdocs\demensia\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\demensia\system\Model.php(238): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\demensia\system\BaseModel.php(585): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp\htdocs\demensia\app\Controllers\Home.php(26): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp\htdocs\demensia\system\CodeIgniter.php(927): App\Controllers\Home->index()
+#8 C:\xampp\htdocs\demensia\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#9 C:\xampp\htdocs\demensia\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\demensia\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 C:\xampp\htdocs\demensia\system\Commands\Server\rewrite.php(46): require_once('C:\\xampp\\htdocs...')
+#12 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: No connection could be made because the target machine actively refused it in C:\xampp\htdocs\demensia\system\Database\MySQLi\Connection.php:215
+Stack trace:
+#0 C:\xampp\htdocs\demensia\system\Database\BaseConnection.php(382): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\xampp\htdocs\demensia\system\Database\BaseConnection.php(561): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\xampp\htdocs\demensia\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 C:\xampp\htdocs\demensia\system\Model.php(238): CodeIgniter\Database\BaseBuilder->get()
+#4 C:\xampp\htdocs\demensia\system\BaseModel.php(585): CodeIgniter\Model->doFindAll(0, 0)
+#5 C:\xampp\htdocs\demensia\app\Controllers\Home.php(26): CodeIgniter\BaseModel->findAll()
+#6 C:\xampp\htdocs\demensia\system\CodeIgniter.php(927): App\Controllers\Home->index()
+#7 C:\xampp\htdocs\demensia\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#8 C:\xampp\htdocs\demensia\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\demensia\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\demensia\system\Commands\Server\rewrite.php(46): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+CRITICAL - 2023-03-23 21:01:37 --> Unable to connect to the database.
+Main connection [MySQLi]: No connection could be made because the target machine actively refused it
+in SYSTEMPATH\Database\BaseConnection.php on line 418.
+ 1 SYSTEMPATH\Database\BaseConnection.php(561): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `pasien`', [], false)
+ 3 SYSTEMPATH\Model.php(238): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH\BaseModel.php(585): CodeIgniter\Model->doFindAll(0, 0)
+ 5 APPPATH\Controllers\Home.php(26): CodeIgniter\BaseModel->findAll()
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Home->index()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+ERROR - 2023-03-23 21:01:56 --> Error connecting to the database: mysqli_sql_exception: No connection could be made because the target machine actively refused it in C:\xampp\htdocs\demensia\system\Database\MySQLi\Connection.php:170
+Stack trace:
+#0 C:\xampp\htdocs\demensia\system\Database\MySQLi\Connection.php(170): mysqli->real_connect('localhost', 'root', Object(SensitiveParameterValue), 'demensia', 3306, '', 0)
+#1 C:\xampp\htdocs\demensia\system\Database\BaseConnection.php(382): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\xampp\htdocs\demensia\system\Database\BaseConnection.php(561): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\xampp\htdocs\demensia\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\demensia\app\Models\M_Auth.php(19): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\demensia\app\Controllers\Auth.php(94): App\Models\M_Auth->login('ayuagstna@gmail...', 'Sukses1')
+#6 C:\xampp\htdocs\demensia\system\CodeIgniter.php(927): App\Controllers\Auth->cek_login()
+#7 C:\xampp\htdocs\demensia\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#8 C:\xampp\htdocs\demensia\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\demensia\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\demensia\system\Commands\Server\rewrite.php(46): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: No connection could be made because the target machine actively refused it in C:\xampp\htdocs\demensia\system\Database\MySQLi\Connection.php:215
+Stack trace:
+#0 C:\xampp\htdocs\demensia\system\Database\BaseConnection.php(382): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\xampp\htdocs\demensia\system\Database\BaseConnection.php(561): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\xampp\htdocs\demensia\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 C:\xampp\htdocs\demensia\app\Models\M_Auth.php(19): CodeIgniter\Database\BaseBuilder->get()
+#4 C:\xampp\htdocs\demensia\app\Controllers\Auth.php(94): App\Models\M_Auth->login('ayuagstna@gmail...', 'Sukses1')
+#5 C:\xampp\htdocs\demensia\system\CodeIgniter.php(927): App\Controllers\Auth->cek_login()
+#6 C:\xampp\htdocs\demensia\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#7 C:\xampp\htdocs\demensia\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\demensia\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\demensia\system\Commands\Server\rewrite.php(46): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2023-03-23 21:01:56 --> Unable to connect to the database.
+Main connection [MySQLi]: No connection could be made because the target machine actively refused it
+in SYSTEMPATH\Database\BaseConnection.php on line 418.
+ 1 SYSTEMPATH\Database\BaseConnection.php(561): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `pengguna`
+WHERE `email` = :email:
+AND `password` = :password:', [...], false)
+ 3 APPPATH\Models\M_Auth.php(19): CodeIgniter\Database\BaseBuilder->get()
+ 4 APPPATH\Controllers\Auth.php(94): App\Models\M_Auth->login('ayuagstna@gmail.com', 'Sukses1')
+ 5 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Auth->cek_login()
+ 6 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+ 7 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+ERROR - 2023-03-23 21:03:53 --> Error connecting to the database: mysqli_sql_exception: No connection could be made because the target machine actively refused it in C:\xampp\htdocs\demensia\system\Database\MySQLi\Connection.php:170
+Stack trace:
+#0 C:\xampp\htdocs\demensia\system\Database\MySQLi\Connection.php(170): mysqli->real_connect('localhost', 'root', Object(SensitiveParameterValue), 'demensia', 3306, '', 0)
+#1 C:\xampp\htdocs\demensia\system\Database\BaseConnection.php(382): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\xampp\htdocs\demensia\system\Database\BaseConnection.php(561): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\xampp\htdocs\demensia\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\demensia\app\Models\M_Auth.php(19): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\demensia\app\Controllers\Auth.php(94): App\Models\M_Auth->login('ayuagstna@gmail...', 'Sukses1')
+#6 C:\xampp\htdocs\demensia\system\CodeIgniter.php(927): App\Controllers\Auth->cek_login()
+#7 C:\xampp\htdocs\demensia\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#8 C:\xampp\htdocs\demensia\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\demensia\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\demensia\system\Commands\Server\rewrite.php(46): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: No connection could be made because the target machine actively refused it in C:\xampp\htdocs\demensia\system\Database\MySQLi\Connection.php:215
+Stack trace:
+#0 C:\xampp\htdocs\demensia\system\Database\BaseConnection.php(382): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\xampp\htdocs\demensia\system\Database\BaseConnection.php(561): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\xampp\htdocs\demensia\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 C:\xampp\htdocs\demensia\app\Models\M_Auth.php(19): CodeIgniter\Database\BaseBuilder->get()
+#4 C:\xampp\htdocs\demensia\app\Controllers\Auth.php(94): App\Models\M_Auth->login('ayuagstna@gmail...', 'Sukses1')
+#5 C:\xampp\htdocs\demensia\system\CodeIgniter.php(927): App\Controllers\Auth->cek_login()
+#6 C:\xampp\htdocs\demensia\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#7 C:\xampp\htdocs\demensia\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\demensia\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\demensia\system\Commands\Server\rewrite.php(46): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2023-03-23 21:03:53 --> Unable to connect to the database.
+Main connection [MySQLi]: No connection could be made because the target machine actively refused it
+in SYSTEMPATH\Database\BaseConnection.php on line 418.
+ 1 SYSTEMPATH\Database\BaseConnection.php(561): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `pengguna`
+WHERE `email` = :email:
+AND `password` = :password:', [...], false)
+ 3 APPPATH\Models\M_Auth.php(19): CodeIgniter\Database\BaseBuilder->get()
+ 4 APPPATH\Controllers\Auth.php(94): App\Models\M_Auth->login('ayuagstna@gmail.com', 'Sukses1')
+ 5 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Auth->cek_login()
+ 6 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+ 7 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+ERROR - 2023-03-23 21:04:06 --> Error connecting to the database: mysqli_sql_exception: No connection could be made because the target machine actively refused it in C:\xampp\htdocs\demensia\system\Database\MySQLi\Connection.php:170
+Stack trace:
+#0 C:\xampp\htdocs\demensia\system\Database\MySQLi\Connection.php(170): mysqli->real_connect('localhost', 'root', Object(SensitiveParameterValue), 'demensia', 3306, '', 0)
+#1 C:\xampp\htdocs\demensia\system\Database\BaseConnection.php(382): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\xampp\htdocs\demensia\system\Database\BaseConnection.php(561): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\xampp\htdocs\demensia\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\demensia\app\Models\M_Auth.php(19): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\demensia\app\Controllers\Auth.php(94): App\Models\M_Auth->login('ayuagstna@gmail...', 'Sukses1')
+#6 C:\xampp\htdocs\demensia\system\CodeIgniter.php(927): App\Controllers\Auth->cek_login()
+#7 C:\xampp\htdocs\demensia\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#8 C:\xampp\htdocs\demensia\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\demensia\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\demensia\system\Commands\Server\rewrite.php(46): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: No connection could be made because the target machine actively refused it in C:\xampp\htdocs\demensia\system\Database\MySQLi\Connection.php:215
+Stack trace:
+#0 C:\xampp\htdocs\demensia\system\Database\BaseConnection.php(382): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\xampp\htdocs\demensia\system\Database\BaseConnection.php(561): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\xampp\htdocs\demensia\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 C:\xampp\htdocs\demensia\app\Models\M_Auth.php(19): CodeIgniter\Database\BaseBuilder->get()
+#4 C:\xampp\htdocs\demensia\app\Controllers\Auth.php(94): App\Models\M_Auth->login('ayuagstna@gmail...', 'Sukses1')
+#5 C:\xampp\htdocs\demensia\system\CodeIgniter.php(927): App\Controllers\Auth->cek_login()
+#6 C:\xampp\htdocs\demensia\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#7 C:\xampp\htdocs\demensia\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\demensia\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\demensia\system\Commands\Server\rewrite.php(46): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2023-03-23 21:04:06 --> Unable to connect to the database.
+Main connection [MySQLi]: No connection could be made because the target machine actively refused it
+in SYSTEMPATH\Database\BaseConnection.php on line 418.
+ 1 SYSTEMPATH\Database\BaseConnection.php(561): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `pengguna`
+WHERE `email` = :email:
+AND `password` = :password:', [...], false)
+ 3 APPPATH\Models\M_Auth.php(19): CodeIgniter\Database\BaseBuilder->get()
+ 4 APPPATH\Controllers\Auth.php(94): App\Models\M_Auth->login('ayuagstna@gmail.com', 'Sukses1')
+ 5 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Auth->cek_login()
+ 6 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+ 7 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+ERROR - 2023-03-23 21:04:39 --> Error connecting to the database: mysqli_sql_exception: No connection could be made because the target machine actively refused it in C:\xampp\htdocs\demensia\system\Database\MySQLi\Connection.php:170
+Stack trace:
+#0 C:\xampp\htdocs\demensia\system\Database\MySQLi\Connection.php(170): mysqli->real_connect('localhost', 'root', Object(SensitiveParameterValue), 'demensia', 3306, '', 0)
+#1 C:\xampp\htdocs\demensia\system\Database\BaseConnection.php(382): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\xampp\htdocs\demensia\system\Database\BaseConnection.php(561): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\xampp\htdocs\demensia\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\demensia\app\Models\M_Auth.php(19): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\demensia\app\Controllers\Auth.php(94): App\Models\M_Auth->login('ayuagstna@gmail...', 'Sukses1')
+#6 C:\xampp\htdocs\demensia\system\CodeIgniter.php(927): App\Controllers\Auth->cek_login()
+#7 C:\xampp\htdocs\demensia\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#8 C:\xampp\htdocs\demensia\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\demensia\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\demensia\system\Commands\Server\rewrite.php(46): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: No connection could be made because the target machine actively refused it in C:\xampp\htdocs\demensia\system\Database\MySQLi\Connection.php:215
+Stack trace:
+#0 C:\xampp\htdocs\demensia\system\Database\BaseConnection.php(382): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\xampp\htdocs\demensia\system\Database\BaseConnection.php(561): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\xampp\htdocs\demensia\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 C:\xampp\htdocs\demensia\app\Models\M_Auth.php(19): CodeIgniter\Database\BaseBuilder->get()
+#4 C:\xampp\htdocs\demensia\app\Controllers\Auth.php(94): App\Models\M_Auth->login('ayuagstna@gmail...', 'Sukses1')
+#5 C:\xampp\htdocs\demensia\system\CodeIgniter.php(927): App\Controllers\Auth->cek_login()
+#6 C:\xampp\htdocs\demensia\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#7 C:\xampp\htdocs\demensia\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\demensia\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\demensia\system\Commands\Server\rewrite.php(46): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2023-03-23 21:04:39 --> Unable to connect to the database.
+Main connection [MySQLi]: No connection could be made because the target machine actively refused it
+in SYSTEMPATH\Database\BaseConnection.php on line 418.
+ 1 SYSTEMPATH\Database\BaseConnection.php(561): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `pengguna`
+WHERE `email` = :email:
+AND `password` = :password:', [...], false)
+ 3 APPPATH\Models\M_Auth.php(19): CodeIgniter\Database\BaseBuilder->get()
+ 4 APPPATH\Controllers\Auth.php(94): App\Models\M_Auth->login('ayuagstna@gmail.com', 'Sukses1')
+ 5 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Auth->cek_login()
+ 6 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+ 7 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+ERROR - 2023-03-23 21:04:46 --> Error connecting to the database: mysqli_sql_exception: No connection could be made because the target machine actively refused it in C:\xampp\htdocs\demensia\system\Database\MySQLi\Connection.php:170
+Stack trace:
+#0 C:\xampp\htdocs\demensia\system\Database\MySQLi\Connection.php(170): mysqli->real_connect('localhost', 'root', Object(SensitiveParameterValue), 'demensia', 3306, '', 0)
+#1 C:\xampp\htdocs\demensia\system\Database\BaseConnection.php(382): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\xampp\htdocs\demensia\system\Database\BaseConnection.php(561): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\xampp\htdocs\demensia\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\demensia\app\Models\M_Auth.php(19): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\demensia\app\Controllers\Auth.php(94): App\Models\M_Auth->login('ayuagstna@gmail...', 'Sukses1')
+#6 C:\xampp\htdocs\demensia\system\CodeIgniter.php(927): App\Controllers\Auth->cek_login()
+#7 C:\xampp\htdocs\demensia\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#8 C:\xampp\htdocs\demensia\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\demensia\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\demensia\system\Commands\Server\rewrite.php(46): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: No connection could be made because the target machine actively refused it in C:\xampp\htdocs\demensia\system\Database\MySQLi\Connection.php:215
+Stack trace:
+#0 C:\xampp\htdocs\demensia\system\Database\BaseConnection.php(382): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\xampp\htdocs\demensia\system\Database\BaseConnection.php(561): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\xampp\htdocs\demensia\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 C:\xampp\htdocs\demensia\app\Models\M_Auth.php(19): CodeIgniter\Database\BaseBuilder->get()
+#4 C:\xampp\htdocs\demensia\app\Controllers\Auth.php(94): App\Models\M_Auth->login('ayuagstna@gmail...', 'Sukses1')
+#5 C:\xampp\htdocs\demensia\system\CodeIgniter.php(927): App\Controllers\Auth->cek_login()
+#6 C:\xampp\htdocs\demensia\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#7 C:\xampp\htdocs\demensia\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\demensia\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\demensia\system\Commands\Server\rewrite.php(46): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2023-03-23 21:04:46 --> Unable to connect to the database.
+Main connection [MySQLi]: No connection could be made because the target machine actively refused it
+in SYSTEMPATH\Database\BaseConnection.php on line 418.
+ 1 SYSTEMPATH\Database\BaseConnection.php(561): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `pengguna`
+WHERE `email` = :email:
+AND `password` = :password:', [...], false)
+ 3 APPPATH\Models\M_Auth.php(19): CodeIgniter\Database\BaseBuilder->get()
+ 4 APPPATH\Controllers\Auth.php(94): App\Models\M_Auth->login('ayuagstna@gmail.com', 'Sukses1')
+ 5 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Auth->cek_login()
+ 6 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+ 7 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2023-03-23 22:01:36 --> Undefined variable $pas
+in APPPATH\Views\templates\template.php on line 308.
+ 1 APPPATH\Views\templates\template.php(308): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $pas', 'APPPATH\\Views\\templates\\template.php', 308)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\templates\\template.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->render('templates/template', [], true)
+ 5 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('penilaian/index', [], true)
+ 6 APPPATH\Controllers\Penilaian.php(31): view('penilaian/index', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Penilaian->index()
+ 8 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Penilaian))
+ 9 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2023-03-23 22:21:34 --> Undefined variable $pas
+in APPPATH\Views\templates\template.php on line 308.
+ 1 APPPATH\Views\templates\template.php(308): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $pas', 'APPPATH\\Views\\templates\\template.php', 308)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\templates\\template.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->render('templates/template', [], true)
+ 5 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('penilaian/index', [], true)
+ 6 APPPATH\Controllers\Penilaian.php(31): view('penilaian/index', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Penilaian->index()
+ 8 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Penilaian))
+ 9 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2023-03-23 22:21:41 --> Undefined variable $pas
+in APPPATH\Views\templates\template.php on line 308.
+ 1 APPPATH\Views\templates\template.php(308): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $pas', 'APPPATH\\Views\\templates\\template.php', 308)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\templates\\template.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->render('templates/template', [], true)
+ 5 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('pasien/index', [], true)
+ 6 APPPATH\Controllers\Pasien.php(27): view('pasien/index', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Pasien->index()
+ 8 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pasien))
+ 9 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2023-03-23 22:22:38 --> Undefined property: CodeIgniter\View\View::$M_Pasien
+in APPPATH\Views\templates\template.php on line 308.
+ 1 APPPATH\Views\templates\template.php(308): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: CodeIgniter\\View\\View::$M_Pasien', 'APPPATH\\Views\\templates\\template.php', 308)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\templates\\template.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->render('templates/template', [], true)
+ 5 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('home/index', [], true)
+ 6 APPPATH\Controllers\Home.php(41): view('home/index', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Home->index()
+ 8 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 9 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2023-03-23 23:58:53 --> Undefined variable $jk_l
+in APPPATH\Views\templates\template.php on line 314.
+ 1 APPPATH\Views\templates\template.php(314): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $jk_l', 'APPPATH\\Views\\templates\\template.php', 314)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\templates\\template.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->render('templates/template', [], true)
+ 5 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('home/index', [], true)
+ 6 APPPATH\Controllers\Home.php(41): view('home/index', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Home->index()
+ 8 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 9 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2023-03-23 23:58:58 --> Undefined variable $jk_l
+in APPPATH\Views\templates\template.php on line 314.
+ 1 APPPATH\Views\templates\template.php(314): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $jk_l', 'APPPATH\\Views\\templates\\template.php', 314)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\templates\\template.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->render('templates/template', [], true)
+ 5 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('pemeriksa/index', [], true)
+ 6 APPPATH\Controllers\Pemeriksa.php(27): view('pemeriksa/index', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Pemeriksa->index()
+ 8 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pemeriksa))
+ 9 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')

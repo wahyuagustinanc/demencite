@@ -1,0 +1,11 @@
+CRITICAL - 2022-12-11 23:17:07 --> Call to undefined function set_select()
+in APPPATH\Views\Pasien\index.php on line 77.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('pasien/index', [], true)
+ 4 APPPATH\Controllers\Pasien.php(25): view('pasien/index', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Pasien->index()
+ 6 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pasien))
+ 7 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')

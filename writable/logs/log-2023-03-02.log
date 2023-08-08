@@ -1,0 +1,33 @@
+CRITICAL - 2023-03-02 19:23:18 --> Undefined array key "tanggal"
+in APPPATH\Views\Penilaian\detail.php on line 30.
+ 1 APPPATH\Views\Penilaian\detail.php(30): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "tanggal"', 'APPPATH\\Views\\Penilaian\\detail.php', 30)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\Penilaian\\detail.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('penilaian/detail', [], true)
+ 5 APPPATH\Controllers\Penilaian.php(164): view('penilaian/detail', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Penilaian->printpdf()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Penilaian))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2023-03-02 19:24:00 --> Too few arguments to function App\Controllers\Penilaian::printpdf(), 0 passed in C:\xampp\htdocs\demensia\system\CodeIgniter.php on line 927 and exactly 1 expected
+in APPPATH\Controllers\Penilaian.php on line 155.
+ 1 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Penilaian->printpdf()
+ 2 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Penilaian))
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2023-03-02 19:24:06 --> Too few arguments to function App\Controllers\Penilaian::printpdf(), 0 passed in C:\xampp\htdocs\demensia\system\CodeIgniter.php on line 927 and exactly 1 expected
+in APPPATH\Controllers\Penilaian.php on line 155.
+ 1 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Penilaian->printpdf()
+ 2 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Penilaian))
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2023-03-02 19:25:23 --> Too few arguments to function App\Controllers\Penilaian::printpdf(), 0 passed in C:\xampp\htdocs\demensia\system\CodeIgniter.php on line 927 and exactly 1 expected
+in APPPATH\Controllers\Penilaian.php on line 155.
+ 1 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Penilaian->printpdf()
+ 2 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Penilaian))
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')

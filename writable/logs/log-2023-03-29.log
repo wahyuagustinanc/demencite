@@ -1,0 +1,41 @@
+ERROR - 2023-03-29 21:20:08 --> mysqli_sql_exception: Unknown column 'total' in 'where clause' in C:\xampp\htdocs\demensia\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\demensia\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT COUNT(*)...', 0)
+#1 C:\xampp\htdocs\demensia\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT COUNT(*)...')
+#2 C:\xampp\htdocs\demensia\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT COUNT(*)...')
+#3 C:\xampp\htdocs\demensia\system\Database\BaseBuilder.php(1669): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(*)...', Array, false)
+#4 C:\xampp\htdocs\demensia\app\Views\Home\index.php(185): CodeIgniter\Database\BaseBuilder->countAllResults()
+#5 C:\xampp\htdocs\demensia\system\View\View.php(213): include('C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\demensia\system\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#7 C:\xampp\htdocs\demensia\system\Common.php(1134): CodeIgniter\View\View->render('home/index', Array, true)
+#8 C:\xampp\htdocs\demensia\app\Controllers\Home.php(41): view('home/index', Array)
+#9 C:\xampp\htdocs\demensia\system\CodeIgniter.php(927): App\Controllers\Home->index()
+#10 C:\xampp\htdocs\demensia\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#11 C:\xampp\htdocs\demensia\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\xampp\htdocs\demensia\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#13 C:\xampp\htdocs\demensia\system\Commands\Server\rewrite.php(46): require_once('C:\\xampp\\htdocs...')
+#14 {main}
+CRITICAL - 2023-03-29 21:20:08 --> Unknown column 'total' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT COUNT(*) AS `numrows`
+FROM `pasien`
+WHERE `total` IS NULL', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT COUNT(*) AS `numrows`
+FROM `pasien`
+WHERE `total` IS NULL')
+ 3 SYSTEMPATH\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT COUNT(*) AS `numrows`
+FROM `pasien`
+WHERE `total` IS NULL')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1669): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(*) AS `numrows`
+FROM `pasien`
+WHERE `total` IS NULL', [], false)
+ 5 APPPATH\Views\Home\index.php(185): CodeIgniter\Database\BaseBuilder->countAllResults()
+ 6 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\Home\\index.php')
+ 7 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('home/index', [], true)
+ 9 APPPATH\Controllers\Home.php(41): view('home/index', [...])
+10 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Home->index()
+11 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+12 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+14 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')

@@ -1,0 +1,505 @@
+CRITICAL - 2023-02-20 00:10:06 --> Too few arguments to function App\Controllers\Profil::perbarui(), 0 passed in C:\xampp\htdocs\demensia\system\CodeIgniter.php on line 927 and exactly 1 expected
+in APPPATH\Controllers\Profil.php on line 28.
+ 1 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Profil->perbarui()
+ 2 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Profil))
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2023-02-20 00:10:25 --> Too few arguments to function App\Controllers\Profil::perbaruiGambar(), 0 passed in C:\xampp\htdocs\demensia\system\CodeIgniter.php on line 927 and exactly 1 expected
+in APPPATH\Controllers\Profil.php on line 98.
+ 1 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Profil->perbaruiGambar()
+ 2 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Profil))
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2023-02-20 00:10:40 --> Too few arguments to function App\Controllers\Profil::perbaruiGambar(), 0 passed in C:\xampp\htdocs\demensia\system\CodeIgniter.php on line 927 and exactly 1 expected
+in APPPATH\Controllers\Profil.php on line 98.
+ 1 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Profil->perbaruiGambar()
+ 2 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Profil))
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2023-02-20 00:11:16 --> Too few arguments to function App\Controllers\Profil::perbaruiGambar(), 0 passed in C:\xampp\htdocs\demensia\system\CodeIgniter.php on line 927 and exactly 1 expected
+in APPPATH\Controllers\Profil.php on line 98.
+ 1 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Profil->perbaruiGambar()
+ 2 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Profil))
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2023-02-20 00:11:33 --> Too few arguments to function App\Controllers\Profil::perbaruiGambar(), 0 passed in C:\xampp\htdocs\demensia\system\CodeIgniter.php on line 927 and exactly 1 expected
+in APPPATH\Controllers\Profil.php on line 98.
+ 1 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Profil->perbaruiGambar()
+ 2 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Profil))
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2023-02-20 00:11:36 --> Too few arguments to function App\Controllers\Profil::perbaruiGambar(), 0 passed in C:\xampp\htdocs\demensia\system\CodeIgniter.php on line 927 and exactly 1 expected
+in APPPATH\Controllers\Profil.php on line 98.
+ 1 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Profil->perbaruiGambar()
+ 2 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Profil))
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2023-02-20 00:13:02 --> Too few arguments to function App\Controllers\Profil::perbarui(), 0 passed in C:\xampp\htdocs\demensia\system\CodeIgniter.php on line 927 and exactly 1 expected
+in APPPATH\Controllers\Profil.php on line 28.
+ 1 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Profil->perbarui()
+ 2 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Profil))
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2023-02-20 00:13:07 --> Too few arguments to function App\Controllers\Profil::perbarui(), 0 passed in C:\xampp\htdocs\demensia\system\CodeIgniter.php on line 927 and exactly 1 expected
+in APPPATH\Controllers\Profil.php on line 28.
+ 1 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Profil->perbarui()
+ 2 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Profil))
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2023-02-20 00:16:14 --> Too few arguments to function App\Controllers\Profil::perbarui(), 0 passed in C:\xampp\htdocs\demensia\system\CodeIgniter.php on line 927 and exactly 1 expected
+in APPPATH\Controllers\Profil.php on line 28.
+ 1 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Profil->perbarui()
+ 2 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Profil))
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2023-02-20 00:19:21 --> Too few arguments to function App\Controllers\Profil::perbarui(), 0 passed in C:\xampp\htdocs\demensia\system\CodeIgniter.php on line 927 and exactly 1 expected
+in APPPATH\Controllers\Profil.php on line 28.
+ 1 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Profil->perbarui()
+ 2 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Profil))
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2023-02-20 00:21:04 --> Too few arguments to function App\Controllers\Profil::perbarui(), 0 passed in C:\xampp\htdocs\demensia\system\CodeIgniter.php on line 927 and exactly 1 expected
+in APPPATH\Controllers\Profil.php on line 42.
+ 1 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Profil->perbarui()
+ 2 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Profil))
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2023-02-20 00:21:10 --> Too few arguments to function App\Controllers\Profil::perbarui(), 0 passed in C:\xampp\htdocs\demensia\system\CodeIgniter.php on line 927 and exactly 1 expected
+in APPPATH\Controllers\Profil.php on line 42.
+ 1 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Profil->perbarui()
+ 2 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Profil))
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2023-02-20 19:16:37 --> Undefined variable $pengguna
+in APPPATH\Views\Profil\index.php on line 50.
+ 1 APPPATH\Views\Profil\index.php(50): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $pengguna', 'APPPATH\\Views\\Profil\\index.php', 50)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\Profil\\index.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('profil/index', [], true)
+ 5 APPPATH\Controllers\Profil.php(26): view('profil/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Profil->index()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Profil))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2023-02-20 20:38:24 --> Undefined variable $pengguna
+in APPPATH\Views\Profil\index.php on line 21.
+ 1 APPPATH\Views\Profil\index.php(21): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $pengguna', 'APPPATH\\Views\\Profil\\index.php', 21)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\Profil\\index.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('profil/index', [], true)
+ 5 APPPATH\Controllers\Profil.php(26): view('profil/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Profil->index()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Profil))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2023-02-20 20:39:56 --> Undefined variable $pengguna
+in APPPATH\Views\Profil\index.php on line 21.
+ 1 APPPATH\Views\Profil\index.php(21): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $pengguna', 'APPPATH\\Views\\Profil\\index.php', 21)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\Profil\\index.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('profil/index', [], true)
+ 5 APPPATH\Controllers\Profil.php(26): view('profil/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Profil->index()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Profil))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2023-02-20 20:40:27 --> Undefined variable $pengguna
+in APPPATH\Views\Profil\index.php on line 21.
+ 1 APPPATH\Views\Profil\index.php(21): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $pengguna', 'APPPATH\\Views\\Profil\\index.php', 21)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\Profil\\index.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('profil/index', [], true)
+ 5 APPPATH\Controllers\Profil.php(26): view('profil/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Profil->index()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Profil))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2023-02-20 20:40:59 --> Too few arguments to function App\Controllers\Profil::perbarui(), 0 passed in C:\xampp\htdocs\demensia\system\CodeIgniter.php on line 927 and exactly 1 expected
+in APPPATH\Controllers\Profil.php on line 29.
+ 1 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Profil->perbarui()
+ 2 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Profil))
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2023-02-20 20:41:20 --> Call to a member function getError() on null
+in APPPATH\Controllers\Profil.php on line 82.
+ 1 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Profil->perbarui()
+ 2 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Profil))
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2023-02-20 20:41:33 --> Call to a member function getError() on null
+in APPPATH\Controllers\Profil.php on line 82.
+ 1 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Profil->perbarui()
+ 2 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Profil))
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2023-02-20 20:43:54 --> Too few arguments to function App\Controllers\Profil::perbarui(), 0 passed in C:\xampp\htdocs\demensia\system\CodeIgniter.php on line 927 and exactly 1 expected
+in APPPATH\Controllers\Profil.php on line 29.
+ 1 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Profil->perbarui()
+ 2 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Profil))
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2023-02-20 20:44:13 --> Too few arguments to function App\Controllers\Profil::perbarui(), 0 passed in C:\xampp\htdocs\demensia\system\CodeIgniter.php on line 927 and exactly 1 expected
+in APPPATH\Controllers\Profil.php on line 29.
+ 1 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Profil->perbarui()
+ 2 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Profil))
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2023-02-20 21:05:17 --> Undefined variable $id
+in APPPATH\Views\Profil\index.php on line 15.
+ 1 APPPATH\Views\Profil\index.php(15): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $id', 'APPPATH\\Views\\Profil\\index.php', 15)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\Profil\\index.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('profil/index', [], true)
+ 5 APPPATH\Controllers\Profil.php(28): view('profil/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Profil->index()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Profil))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2023-02-20 21:05:20 --> Undefined variable $id
+in APPPATH\Views\Profil\index.php on line 15.
+ 1 APPPATH\Views\Profil\index.php(15): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $id', 'APPPATH\\Views\\Profil\\index.php', 15)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\Profil\\index.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('profil/index', [], true)
+ 5 APPPATH\Controllers\Profil.php(28): view('profil/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Profil->index()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Profil))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2023-02-20 21:07:31 --> Undefined variable $id
+in APPPATH\Views\Profil\index.php on line 15.
+ 1 APPPATH\Views\Profil\index.php(15): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $id', 'APPPATH\\Views\\Profil\\index.php', 15)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\Profil\\index.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('profil/index', [], true)
+ 5 APPPATH\Controllers\Profil.php(28): view('profil/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Profil->index()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Profil))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2023-02-20 21:11:37 --> Undefined variable $pengguna
+in APPPATH\Views\Profil\index.php on line 15.
+ 1 APPPATH\Views\Profil\index.php(15): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $pengguna', 'APPPATH\\Views\\Profil\\index.php', 15)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\Profil\\index.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('profil/index', [], true)
+ 5 APPPATH\Controllers\Profil.php(28): view('profil/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Profil->index()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Profil))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2023-02-20 21:16:02 --> Undefined variable $pengguna
+in APPPATH\Views\Profil\index.php on line 15.
+ 1 APPPATH\Views\Profil\index.php(15): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $pengguna', 'APPPATH\\Views\\Profil\\index.php', 15)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\Profil\\index.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('profil/index', [], true)
+ 5 APPPATH\Controllers\Profil.php(28): view('profil/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Profil->index()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Profil))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2023-02-20 21:17:03 --> Undefined variable $pengguna
+in APPPATH\Views\Profil\index.php on line 15.
+ 1 APPPATH\Views\Profil\index.php(15): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $pengguna', 'APPPATH\\Views\\Profil\\index.php', 15)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\Profil\\index.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('profil/index', [], true)
+ 5 APPPATH\Controllers\Profil.php(28): view('profil/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Profil->index()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Profil))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2023-02-20 21:17:05 --> Undefined variable $pengguna
+in APPPATH\Views\Profil\index.php on line 15.
+ 1 APPPATH\Views\Profil\index.php(15): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $pengguna', 'APPPATH\\Views\\Profil\\index.php', 15)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\Profil\\index.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('profil/index', [], true)
+ 5 APPPATH\Controllers\Profil.php(28): view('profil/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Profil->index()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Profil))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2023-02-20 21:17:06 --> Undefined variable $pengguna
+in APPPATH\Views\Profil\index.php on line 15.
+ 1 APPPATH\Views\Profil\index.php(15): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $pengguna', 'APPPATH\\Views\\Profil\\index.php', 15)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\Profil\\index.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('profil/index', [], true)
+ 5 APPPATH\Controllers\Profil.php(28): view('profil/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Profil->index()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Profil))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2023-02-20 21:17:13 --> Undefined variable $pengguna
+in APPPATH\Views\Profil\index.php on line 15.
+ 1 APPPATH\Views\Profil\index.php(15): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $pengguna', 'APPPATH\\Views\\Profil\\index.php', 15)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\Profil\\index.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('profil/index', [], true)
+ 5 APPPATH\Controllers\Profil.php(28): view('profil/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Profil->index()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Profil))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2023-02-20 21:20:15 --> Undefined variable $value
+in APPPATH\Views\Profil\index.php on line 63.
+ 1 APPPATH\Views\Profil\index.php(63): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $value', 'APPPATH\\Views\\Profil\\index.php', 63)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\Profil\\index.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('profil/index', [], true)
+ 5 APPPATH\Controllers\Profil.php(28): view('profil/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Profil->index()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Profil))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2023-02-20 21:20:41 --> Undefined variable $pengguna
+in APPPATH\Views\Profil\index.php on line 63.
+ 1 APPPATH\Views\Profil\index.php(63): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $pengguna', 'APPPATH\\Views\\Profil\\index.php', 63)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\Profil\\index.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('profil/index', [], true)
+ 5 APPPATH\Controllers\Profil.php(28): view('profil/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Profil->index()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Profil))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2023-02-20 21:20:42 --> Undefined variable $pengguna
+in APPPATH\Views\Profil\index.php on line 63.
+ 1 APPPATH\Views\Profil\index.php(63): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $pengguna', 'APPPATH\\Views\\Profil\\index.php', 63)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\Profil\\index.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('profil/index', [], true)
+ 5 APPPATH\Controllers\Profil.php(28): view('profil/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Profil->index()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Profil))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2023-02-20 21:38:08 --> Undefined variable $pengguna
+in APPPATH\Views\Profil\index.php on line 9.
+ 1 APPPATH\Views\Profil\index.php(9): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $pengguna', 'APPPATH\\Views\\Profil\\index.php', 9)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\Profil\\index.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('profil/index', [], true)
+ 5 APPPATH\Controllers\Profil.php(28): view('profil/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Profil->index()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Profil))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2023-02-20 21:49:11 --> Undefined array key "id"
+in APPPATH\Views\Profil\index.php on line 15.
+ 1 APPPATH\Views\Profil\index.php(15): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id"', 'APPPATH\\Views\\Profil\\index.php', 15)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\Profil\\index.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('profil/index', [], true)
+ 5 APPPATH\Controllers\Profil.php(28): view('profil/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Profil->index()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Profil))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2023-02-20 21:50:48 --> Undefined array key "foto"
+in APPPATH\Views\Profil\index.php on line 9.
+ 1 APPPATH\Views\Profil\index.php(9): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "foto"', 'APPPATH\\Views\\Profil\\index.php', 9)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\Profil\\index.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('profil/index', [], true)
+ 5 APPPATH\Controllers\Profil.php(28): view('profil/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Profil->index()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Profil))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2023-02-20 21:50:50 --> Undefined array key "foto"
+in APPPATH\Views\Profil\index.php on line 9.
+ 1 APPPATH\Views\Profil\index.php(9): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "foto"', 'APPPATH\\Views\\Profil\\index.php', 9)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\Profil\\index.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('profil/index', [], true)
+ 5 APPPATH\Controllers\Profil.php(28): view('profil/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Profil->index()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Profil))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2023-02-20 21:52:02 --> Call to undefined method App\Models\M_Profil::all_data
+in SYSTEMPATH\Model.php on line 789.
+ 1 APPPATH\Controllers\Profil.php(29): CodeIgniter\Model->__call('all_data', [])
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Profil->index()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Profil))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2023-02-20 21:52:38 --> Call to undefined method App\Models\M_Profil::all_data
+in SYSTEMPATH\Model.php on line 789.
+ 1 APPPATH\Controllers\Profil.php(29): CodeIgniter\Model->__call('all_data', [])
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Profil->index()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Profil))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2023-02-20 21:54:47 --> Undefined array key "foto"
+in APPPATH\Views\Profil\index.php on line 9.
+ 1 APPPATH\Views\Profil\index.php(9): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "foto"', 'APPPATH\\Views\\Profil\\index.php', 9)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\Profil\\index.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('profil/index', [], true)
+ 5 APPPATH\Controllers\Profil.php(32): view('profil/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Profil->index()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Profil))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2023-02-20 21:54:49 --> Undefined array key "foto"
+in APPPATH\Views\Profil\index.php on line 9.
+ 1 APPPATH\Views\Profil\index.php(9): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "foto"', 'APPPATH\\Views\\Profil\\index.php', 9)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\Profil\\index.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('profil/index', [], true)
+ 5 APPPATH\Controllers\Profil.php(32): view('profil/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Profil->index()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Profil))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2023-02-20 21:56:49 --> Undefined array key "foto"
+in APPPATH\Views\Profil\index.php on line 9.
+ 1 APPPATH\Views\Profil\index.php(9): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "foto"', 'APPPATH\\Views\\Profil\\index.php', 9)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\Profil\\index.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('profil/index', [], true)
+ 5 APPPATH\Controllers\Profil.php(36): view('profil/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Profil->index()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Profil))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2023-02-20 21:56:51 --> Undefined array key "foto"
+in APPPATH\Views\Profil\index.php on line 9.
+ 1 APPPATH\Views\Profil\index.php(9): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "foto"', 'APPPATH\\Views\\Profil\\index.php', 9)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\Profil\\index.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('profil/index', [], true)
+ 5 APPPATH\Controllers\Profil.php(36): view('profil/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Profil->index()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Profil))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2023-02-20 21:57:24 --> Undefined array key "foto"
+in APPPATH\Views\Profil\index.php on line 9.
+ 1 APPPATH\Views\Profil\index.php(9): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "foto"', 'APPPATH\\Views\\Profil\\index.php', 9)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\Profil\\index.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('profil/index', [], true)
+ 5 APPPATH\Controllers\Profil.php(34): view('profil/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Profil->index()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Profil))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2023-02-20 21:59:01 --> Undefined variable $pengguna
+in APPPATH\Views\Profil\index.php on line 15.
+ 1 APPPATH\Views\Profil\index.php(15): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $pengguna', 'APPPATH\\Views\\Profil\\index.php', 15)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\Profil\\index.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('profil/index', [], true)
+ 5 APPPATH\Controllers\Profil.php(34): view('profil/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Profil->index()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Profil))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2023-02-20 21:59:14 --> Undefined array key "id"
+in APPPATH\Views\Profil\index.php on line 15.
+ 1 APPPATH\Views\Profil\index.php(15): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id"', 'APPPATH\\Views\\Profil\\index.php', 15)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\Profil\\index.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('profil/index', [], true)
+ 5 APPPATH\Controllers\Profil.php(34): view('profil/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Profil->index()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Profil))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2023-02-20 21:59:16 --> Undefined array key "id"
+in APPPATH\Views\Profil\index.php on line 15.
+ 1 APPPATH\Views\Profil\index.php(15): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id"', 'APPPATH\\Views\\Profil\\index.php', 15)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\Profil\\index.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('profil/index', [], true)
+ 5 APPPATH\Controllers\Profil.php(34): view('profil/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Profil->index()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Profil))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2023-02-20 21:59:51 --> Undefined array key "id"
+in APPPATH\Views\Profil\index.php on line 15.
+ 1 APPPATH\Views\Profil\index.php(15): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id"', 'APPPATH\\Views\\Profil\\index.php', 15)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\Profil\\index.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('profil/index', [], true)
+ 5 APPPATH\Controllers\Profil.php(34): view('profil/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Profil->index()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Profil))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2023-02-20 21:59:59 --> Undefined array key "id"
+in APPPATH\Views\Profil\index.php on line 15.
+ 1 APPPATH\Views\Profil\index.php(15): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id"', 'APPPATH\\Views\\Profil\\index.php', 15)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\Profil\\index.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('profil/index', [], true)
+ 5 APPPATH\Controllers\Profil.php(34): view('profil/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Profil->index()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Profil))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2023-02-20 23:33:34 --> Invalid file: penilaian/tambah.php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('penilaian/tambah.php')
+ 2 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('penilaian/tambah', [], true)
+ 3 APPPATH\Controllers\Penilaian.php(34): view('penilaian/tambah', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Penilaian->tambah()
+ 5 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Penilaian))
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
